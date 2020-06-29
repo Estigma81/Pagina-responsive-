@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/> 
+    <!--Letra  -->
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Página reponsive Santiago Ramírez</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="brand">
+            <h1 class="brand__h1">
+                Bonhomía
+            </h1>
+        </div>
+        <div class="nav-wrapper">
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="#vision">Visión</a></li>
+                <li class="menu__item"><a class="menu__link" href="#objetivo">Objetivo</a></li>
+                <li class="menu__item"><a class="menu__link" href="#problema">Problema</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contacto">Contáctenos</a></li>
+            </ul>
+        </div>
+        <div class="search-wrapper">
+            <i class="search-wrapper__i fas fa-search"></i>
+        </div>
+    </header>
+
+
+
+    <section class="vision" id="vision-section">
+        <div class="vision-text">
+            <h1 class="vision__title-1">Bonhomía</h1>
+            <h2 class="vision__title-2">Inteligencia emocional</h2>
+        </div>
+        <div class="vision-img">
+            <img class="vision-img__1 vision-img-area"
+                src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="vacio"></div>
+    </section>
+
+    <section class="problema" >
+        <div class="container">
+            <div class="col-left-1" >
+                <h2 class="problema__title-2 problema__tile-2--bienvenido" id="vision">
+                    Nuestra visión
+                </h2>
+                <p class="vision__parrafo" >
+                    Es un proyecto dirigido a los jóvenes adultos y adolescentes, en el cual se ha identificado que estos presentan un déficit en el desarrollo de su inteligencia emocional. Este se llama [Bonhomía] y es un aplicativo web que permitirá que el individuo desarrolle la capacidad de reconocer sus emociones y saber expresarlas; de esta forma le será posible tomar mejores decisiones en su vida cotidiana. A diferencia de los otros aplicativos que se centran en un método de enseñanza poco didáctico nuestra aplicación web busca ser un método lúdico.
+                </p>
+            </div>
+
+            <div class="col-right-1">
+                <img class="container__img-1"
+                    src="../img/modern-student-s-life-composition-with-flat-design_23-2147898949.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-left-1 col-left-1--problema">
+                <img class="container__img-1" src="../img/human-life-cycle-set_1284-21716.jpg"
+                    alt="">
+            </div>
+            <div class=" col-right-1 col-right-1--problema ">
+                <h1 class="problema__title-1 problema__tile-1--bienvenido" id="problema">
+                    Problema
+                </h1>
+                <h2 class="problema__title-2 problema__tile-2--bienvenido">
+                    Nuestro público es variado, ya que todos necesitamos la inteligencia emocional
+                </h2>
+                <p class="problema__parrafo">
+                    El poco desarrollo de la inteligencia emocional en los jóvenes adultos y adolescentes producto del mal manejo de las situaciones en diferentes escenarios y el comportamiento dando como resultado una reacción negativa o arrebatos emocionales generando conflictos constantes, malas relaciones interpersonales y una mala comunicación.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="objetivo" id="objetivo">
+        <div class="container">
+            <div class="col-left-1--objetivo">
+                <h2 class="objetivo__title-2 objetivo__tile-2--bienvenido" >
+                    Nuestra objetivo
+                </h2>
+                <p class="objetivo__parrafo">
+                    El objetivo de nuestro proyecto es implementar un aplicativo web que permitirá que el individuo desarrolle la capacidad de reconocer sus emociones y saber expresarlas para tomar mejores decisiones en su vida cotidiana.
+                </p>
+            </div>
+
+            <div class="col-right-1">
+                <img class="container__img-1"
+                    src="../img/goal.jpg"
+                    alt="">
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="informacion" id="informacion-section">
+        <div class="container container--informacion">
+            <div class="col-left-1 col-left-1--informacion">
+                <div class="infor" id="contacto">
+                    <div class="img-box">
+                        <img class="container__img-2"
+                            src="https://www.ppt-backgrounds.net/thumbs/music-notes-design-templates.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="content__title">Música</h2>
+                    </div>
+                </div>
+                <div class="infor">
+                    <div class="img-box">
+                        <img class="container__img-2"
+                            src="../img/activities.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="content__title">Actividades lúdicas</h2>
+                    </div>
+                </div>
+                <div class="infor">
+                    <div class="img-box">
+                        <img class="container__img-2"
+                            src="../img/reporte.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2 class="content__title">Reporte semanal</h2>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact-section">
+        <div class="container container--contact">
+            <div class="col-left-1 col-left-1--contact">
+                <h1 class="problema__title-1 problema__tile-1--bienvenido">
+                    Contacto
+                </h1>
+                <div class="icons-contact">
+                    <i class="fas fa-map-marker-alt icons-contact__1"></i>
+                    <h3 class="icons-contact__title">Cra. 36 ##45-8, Medellín, Antioquia</h3>
+                </div>
+                <div class="icons-contact">
+                    <i class="fas fa-phone-alt icons-contact__1"></i>
+                    <h3 class="icons-contact__title">3185954200</h3>
+                </div>
+
+                <div class="icons-contact">
+                    <i class="fas fa-envelope icons-contact__1"></i>
+                    <h3 class="icons-contact__title">santiagoramirez810@gmail.com</h3>
+                </div>
+
+                <div class="icons-contact">
+                    <i class="fas fa-clock icons-contact__1"></i>
+                    <h3 class="icons-contact__title">Lunes - Viernes 7am -3pm</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="icons-social">
+            <ul class="list-social">
+
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-facebook"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-instagram"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-telegram"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="container-footer">
+            <p>Desarrollado por Santiago Ramírez Arango 11-1</p>
+            <p>TODOS LOS DERECHOS SON RESERVADOS</p>
+        </div>
+    </footer>
+</body>
+</html>
